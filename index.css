@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Squada+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Squada+One&display=swap');
+
+.right{
+
+	position: relative;
+	height: 630px;
+	background-image: url("img/wp.png");
+
+}
+.left{
+	background-color:#ffe9ec;
+	height: 630px;
+}
+.intro{
+	color: white ;
+	position: absolute;
+	margin-top: 250px;
+	font-family: 'Libre Baskerville', serif;
+font-family: 'Squada One', cursive;
+}
+#info{
+	color: white  ;
+	font-size: 30px;
+	position: absolute;
+	margin-top: 350px;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Squada One', cursive;
+}
+#show_country{
+	color: white  ;
+	font-size: 50px;
+	position: absolute;
+	margin-top: 150px;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Squada One', cursive;
+}
+.worldimg{
+	margin-right: 40px;
+	float: right;
+	margin-top: 60px;
+	width: 100px;
+	height: 100px;
+}
+.subLeft{
+	margin-top: 20px;
+}
+input{
+	width: 80%;
+	height: 10%;
+	padding: 9px;
+	border: 1px solid lightgray;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+	border-top-right-radius: 14px;
+	border-top-left-radius: 14px;
+	box-shadow: 10px 8px 10px gray;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Squada One', cursive;
+}
+input:focus{
+	border: 1px solid lightgray;
+	border-bottom-left-radius: 14px;
+	border-bottom-right-radius: 14px;
+	border-top-right-radius: 14px;
+	border-top-left-radius: 14px;
+	outline: none;
+}
+button{
+	width: 25%;
+	height: 10%;
+	padding: 2px;
+	border: 1px solid lightgray;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #D9B7E5;
+
+}
+button:hover{
+	background-color: #F2CBF4;
+}
+#clock,#time{
+	color: white;
+	margin-top: 20px;
+	text-align: right;
+	font-family: 'Squada One', cursive;
+}
+#feellike{
+	font-size: 25px;
+	margin-top: 20px;
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Squada One', cursive;
+}
+#flimg{
+	float: right;
+	width: 80px;
+}
+#showImg{
+	width: 90px;
+}
+@media screen and (max-width: 480px){
+	.left{
+		height: 300px;
+	}
+}
